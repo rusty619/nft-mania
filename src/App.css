@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  font-family: 'Roboto Serif',serif;
+}
+
+.picture-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  grid-gap: 1rem;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+
+
+.picture-item{
+
+  border: 1px solid #FFC069;
+  
+}
+
+.picture-tag{
+  color: #FFC107;
+}
+
+img{
+  width: 15rem;
+  height: 1fr;
+  border: 1px solid yellowgreen;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.picture-desc{
+  font-size: 15px;
+}
+
+.picture-like-views{
+  
+  font-size: 15px;
+}
+
+.span-tags{
+  color: #FEB139;
+}
+
+
+
+.doge-span{
+  color:#F55353;
+}
+
+.like-btn {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.buy-btn{
+  margin-bottom: 5px;
+  cursor: pointer;
+  border:none;
+  background: #FCD900;
+  padding: 1em;
+  width: 150px;
+  /* color: #001E6C; */
+  font-weight: bolder;
+  border-radius: 25px;
+}
+
+.sold-btn {
+  margin-bottom: 5px;
+  border: none;
+  background: #F1DDBF;
+  padding: 1em;
+  width: 150px;
+  color: #B20600;
+}
+
+.doge-img{
+  width: 28px;
+  border: none;
+  position: relative;
+  top: 10px;
+  left: 5px;
+}
+
+.picture-price {
+  position: relative;
+  bottom: 25px;
+}

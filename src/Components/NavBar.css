@@ -1,0 +1,75 @@
+.nav-menu{
+    background-color: #EDEDED;
+    padding-bottom: 40px;
+    font-size: 20px;
+    border-bottom: 1px solid lightgray;
+    font-family: 'Merriweather',serif;
+}
+
+.nav-home{
+    position: absolute;
+    left: 50px;
+    text-decoration: none;
+    color: #180A0A;
+    padding-top: 5px;
+}
+
+.nav-home-active{
+    position: absolute;
+    left: 50px;
+    text-decoration: none;
+    color: #4B7BE5;
+    padding-top: 5px;
+}
+
+.nav-home:hover{
+    color: #4B7BE5;
+}
+
+.nav-form{
+    text-decoration: none;
+    position: absolute;
+    left: 200px;
+    color: #180A0A;
+    padding-top: 5px;
+}
+
+.nav-form-active{
+    text-decoration: none;
+    position: absolute;
+    left: 200px;
+    color: #4B7BE5;
+    padding-top: 5px;
+}
+
+.nav-form:hover {
+    color: #4B7BE5;
+}
+
+.nav-about{
+    text-decoration: none;
+    position: absolute;
+    left: 380px;
+    color: #180A0A;
+    padding-top: 5px;
+}
+
+.nav-about-active {
+    text-decoration: none;
+    position: absolute;
+    left: 380px;
+    color: #4B7BE5;
+    padding-top: 5px;
+}
+
+.nav-about:hover{
+    color: #4B7BE5;
+}
+
+.nft-icon{
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    width: 29px;
+    border: none;
+}
